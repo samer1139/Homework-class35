@@ -1,39 +1,55 @@
 {
-  "node": "v14.15.1",
+  "node": "v14.11.0",
   "system": {
-    "manufacturer": "Apple Inc.",
-    "model": "MacBookPro11,3"
+    "manufacturer": "Acer",
+    "model": "Aspire A315-55G"
   },
   "cpu": {
     "manufacturer": "Intel®",
-    "brand": "Core™ i7-4960HQ",
-    "speed": 2.6
+    "brand": "Core™ i7-10510U",
+    "speed": 1.8
   },
-  "memory": "16 GB",
+  "memory": "8 GB",
   "osInfo": {
-    "platform": "darwin",
-    "distro": "macOS",
-    "release": "11.5.2"
+    "platform": "Windows",
+    "distro": "Microsoft Windows 11 Home",
+    "release": "10.0.22000"
   },
   "vscodeInfo": {
-    "version": "1.62.1",
+    "version": "1.63.2",
     "extensions": [
+      "aaron-bond.better-comments",
+      "abrahamwilliam007.es7-javascript-class-snippets",
+      "adampalhazi.vscode-debug-arrow-function",
+      "bierner.github-markdown-preview",
+      "bierner.markdown-checkbox",
+      "bierner.markdown-emoji",
+      "bierner.markdown-preview-github-styles",
+      "bierner.markdown-yaml-preamble",
+      "burkeholland.simple-react-snippets",
+      "christian-kohler.path-intellisense",
+      "CoenraadS.bracket-pair-colorizer",
+      "CoenraadS.bracket-pair-colorizer-2",
+      "DavidAnson.vscode-markdownlint",
+      "dbaeumer.vscode-eslint",
+      "DigitalBrainstem.javascript-ejs-support",
+      "dsznajder.es7-react-js-snippets",
+      "eamodio.gitlens",
+      "EditorConfig.EditorConfig",
       "esbenp.prettier-vscode",
+      "formulahendry.auto-rename-tag",
+      "formulahendry.code-runner",
+      "mgmcdermott.vscode-language-babel",
+      "PKief.material-icon-theme",
       "ritwickdey.LiveServer",
-      "shd101wyy.markdown-preview-enhanced"
+      "sburg.vscode-javascript-booster",
+      "skyran.js-jsx-snippets",
+      "streetsidesoftware.code-spell-checker",
+      "vincaslt.highlight-matching-tag",
+      "voldemortensen.rainbow-tags",
+      "woodreamz.es7-react-js-snippets",
+      "xabikos.JavaScriptSnippets"
     ],
-    "userSettings": {
-      "explorer.confirmDragAndDrop": false,
-      "explorer.confirmDelete": false,
-      "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-      },
-      "javascript.updateImportsOnFileMove.enabled": "never",
-      "editor.formatOnSave": true,
-      "editor.tabSize": 2,
-      "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-      }
-    }
+    "userSettings": {}
   }
 }

@@ -22,15 +22,21 @@ you have more than 3 items in your shopping cart the first item gets taken out.
 -----------------------------------------------------------------------------*/
 const shoppingCart = ['bananas', 'milk'];
 
-// ! Function to be tested
-function addToShoppingCart(/* parameters go here */) {
-  // TODO complete this function
+function addToShoppingCart(grocery) {
+  if (grocery !== undefined){
+    shoppingCart.push(grocery);
+    if (shoppingCart.length > 3){
+      // shoppingCart.splice(0,1);
+      shoppingCart.shift();
+    }
+  }
+  return `You bought ${shoppingCart.join(', ')}!`;
 }
 
 // ! Test functions (plain vanilla JavaScript)
 function test1() {
   console.log(
-    'Test 1: addShoppingCart() called without an argument should leave the shopping cart unchanged'
+    'Test 1: addToShoppingCart() called without an argument should leave the shopping cart unchanged'
   );
   const expected = 'You bought bananas, milk!';
   const actual = addToShoppingCart();
@@ -38,7 +44,7 @@ function test1() {
 }
 
 function test2() {
-  console.log('Test 2: addShoppingCart() should take one parameter');
+  console.log('Test 2: addToShoppingCart() should take one parameter');
   const expected = 1;
   const actual = addToShoppingCart.length;
   console.assert(actual === expected);
