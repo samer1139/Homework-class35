@@ -26,7 +26,6 @@ function addToShoppingCart(grocery) {
   if (grocery !== undefined){
     shoppingCart.push(grocery);
     if (shoppingCart.length > 3){
-      // shoppingCart.splice(0,1);
       shoppingCart.shift();
     }
   }

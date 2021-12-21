@@ -31,7 +31,7 @@ const employeeRecords = [
 
 // ! Function under test
 function filterPrivateData(employees) {
-  let newEmployees =  employees.map( ({name,occupation,email}) => { return {name, occupation,email}});
+  const newEmployees =  employees.map( ({name,occupation,email}) => { return {name, occupation,email}});
   return newEmployees;
 }
 

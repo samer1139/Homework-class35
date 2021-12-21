@@ -30,9 +30,7 @@ const cartForParty = {
 
 function calculateTotalPrice(shoppingCartContent) {
   let amount = 0;
-  for (const property in shoppingCartContent) {
-    amount += shoppingCartContent[property];
-  }
+  Object.values(shoppingCartContent).forEach(value=> amount += value)
   return `Total: €${amount}`;
 }
 
@@ -44,8 +42,8 @@ function test1() {
 
 function test2() {
   console.log('\nTest 2: return correct output when passed cartForParty');
-  let expected = 'Total: €110.08';
-  let actual = calculateTotalPrice(cartForParty);
+  const expected = 'Total: €110.08';
+  const actual = calculateTotalPrice(cartForParty);
   console.assert(actual === expected);
 }
 
