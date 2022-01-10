@@ -1,0 +1,1052 @@
+2022-01-08 07:44:29 info: ------------------------------------------------------
+2022-01-08 07:44:29 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-01-08 07:44:29 info: ------------------------------------------------------
+2022-01-08 07:44:32 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-doubleEvenNumbers.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js
+  × doubleEvenNumbers should take the even numbers and double them (6 ms)
+
+  ● doubleEvenNumbers should take the even numbers and double them
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 0
+    + Received  + 2
+
+      Array [
+    +   2,
+        4,
+    +   6,
+        8,
+      ]
+
+      27 |   const actual = doubleEvenNumbers([1, 2, 3, 4]);
+      28 |   const expected = [4, 8];
+    > 29 |   expect(actual).toEqual(expected);
+         |                  ^
+      30 | });
+      31 |
+      32 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js:29:18)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.687 s
+Ran all test suites matching /ex1-doubleEvenNumbers.test.js/i.
+2022-01-08 07:44:34 error: *** ESLint Report ***
+
+ex1-doubleEvenNumbers.test.js
+  15:7  warning  'newNumbers' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  16:3  warning  Remove commented-out code                              hyf/no-commented-out-code
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2022-01-08 07:45:03 info: Disclaimer turned off
+2022-01-08 07:45:16 info: ------------------------------------------------------
+2022-01-08 07:45:16 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-01-08 07:45:16 info: ------------------------------------------------------
+2022-01-08 07:45:18 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-doubleEvenNumbers.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js
+  × doubleEvenNumbers should take the even numbers and double them (7 ms)
+
+  ● doubleEvenNumbers should take the even numbers and double them
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 0
+    + Received  + 2
+
+      Array [
+    +   2,
+        4,
+    +   6,
+        8,
+      ]
+
+      27 |   const actual = doubleEvenNumbers([1, 2, 3, 4]);
+      28 |   const expected = [4, 8];
+    > 29 |   expect(actual).toEqual(expected);
+         |                  ^
+      30 | });
+      31 |
+      32 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js:29:18)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.4 s, estimated 1 s
+Ran all test suites matching /ex1-doubleEvenNumbers.test.js/i.
+2022-01-08 07:45:19 error: *** ESLint Report ***
+
+ex1-doubleEvenNumbers.test.js
+  15:7  warning  'newNumbers' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  16:3  warning  Remove commented-out code                              hyf/no-commented-out-code
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2022-01-08 08:01:21 info: ------------------------------------------------------
+2022-01-08 08:01:21 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-01-08 08:01:21 info: ------------------------------------------------------
+2022-01-08 08:01:23 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-doubleEvenNumbers.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js
+  × doubleEvenNumbers should take the even numbers and double them (6 ms)
+
+  ● doubleEvenNumbers should take the even numbers and double them
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 2
+    + Received  + 4
+
+      Array [
+    -   4,
+    -   8,
+    +   undefined,
+    +   undefined,
+    +   undefined,
+    +   undefined,
+      ]
+
+      27 |   const actual = doubleEvenNumbers([1, 2, 3, 4]);
+      28 |   const expected = [4, 8];
+    > 29 |   expect(actual).toEqual(expected);
+         |                  ^
+      30 | });
+      31 |
+      32 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js:29:18)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.481 s, estimated 1 s
+Ran all test suites matching /ex1-doubleEvenNumbers.test.js/i.
+2022-01-08 08:01:25 error: *** ESLint Report ***
+
+ex1-doubleEvenNumbers.test.js
+  15:7  warning  'newNumbers' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  16:3  warning  Remove commented-out code                              hyf/no-commented-out-code
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2022-01-08 08:02:34 info: ------------------------------------------------------
+2022-01-08 08:02:34 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-01-08 08:02:34 info: ------------------------------------------------------
+2022-01-08 08:02:36 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-doubleEvenNumbers.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js
+  × doubleEvenNumbers should take the even numbers and double them (6 ms)
+
+  ● doubleEvenNumbers should take the even numbers and double them
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 2
+    + Received  + 4
+
+      Array [
+    -   4,
+    -   8,
+    +   undefined,
+    +   undefined,
+    +   undefined,
+    +   undefined,
+      ]
+
+      27 |   const actual = doubleEvenNumbers([1, 2, 3, 4]);
+      28 |   const expected = [4, 8];
+    > 29 |   expect(actual).toEqual(expected);
+         |                  ^
+      30 | });
+      31 |
+      32 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js:29:18)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.487 s, estimated 1 s
+Ran all test suites matching /ex1-doubleEvenNumbers.test.js/i.
+2022-01-08 08:02:37 error: *** ESLint Report ***
+
+ex1-doubleEvenNumbers.test.js
+  15:7  warning  'newNumbers' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  16:3  warning  Remove commented-out code                              hyf/no-commented-out-code
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2022-01-08 08:03:46 info: ------------------------------------------------------
+2022-01-08 08:03:46 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-01-08 08:03:46 info: ------------------------------------------------------
+2022-01-08 08:03:48 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-doubleEvenNumbers.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js
+  × doubleEvenNumbers should take the even numbers and double them (7 ms)
+
+  ● doubleEvenNumbers should take the even numbers and double them
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 2
+    + Received  + 4
+
+      Array [
+    -   4,
+    -   8,
+    +   undefined,
+    +   undefined,
+    +   undefined,
+    +   undefined,
+      ]
+
+      27 |   const actual = doubleEvenNumbers([1, 2, 3, 4]);
+      28 |   const expected = [4, 8];
+    > 29 |   expect(actual).toEqual(expected);
+         |                  ^
+      30 | });
+      31 |
+      32 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex1-doubleEvenNumbers.test.js:29:18)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.414 s, estimated 1 s
+Ran all test suites matching /ex1-doubleEvenNumbers.test.js/i.
+2022-01-08 08:03:49 error: *** ESLint Report ***
+
+ex1-doubleEvenNumbers.test.js
+  15:7  warning  'newNumbers' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  16:3  warning  Remove commented-out code                              hyf/no-commented-out-code
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2022-01-08 08:44:45 info: ------------------------------------------------------
+2022-01-08 08:44:46 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-01-08 08:44:46 info: ------------------------------------------------------
+2022-01-08 08:44:48 info: All unit tests passed.
+2022-01-08 08:44:49 error: *** ESLint Report ***
+
+ex1-doubleEvenNumbers.test.js
+  16:3  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2022-01-08 10:18:30 info: ------------------------------------------------------
+2022-01-08 10:18:30 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-01-08 10:18:30 info: ------------------------------------------------------
+2022-01-08 10:18:32 info: All unit tests passed.
+2022-01-08 10:18:33 error: *** ESLint Report ***
+
+ex1-doubleEvenNumbers.test.js
+  16:3  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2022-01-08 10:18:55 info: -------------------------------------------------
+2022-01-08 10:18:55 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2022-01-08 10:18:55 info: -------------------------------------------------
+2022-01-08 10:18:57 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-mondaysWorth.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js
+  computeEarnings
+    √ should take two parameters (3 ms)
+    × should compute the earnings as a formatted Euro amount (3 ms)
+
+  ● computeEarnings › should compute the earnings as a formatted Euro amount
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "€187.50"
+    Received: "€750"
+
+      51 |     const result = computeEarnings(mondayTasks, hourlyRate);
+      52 |     const expected = '€187.50';
+    > 53 |     expect(result).toBe(expected);
+         |                    ^
+      54 |   });
+      55 | });
+      56 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js:53:20)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 passed, 2 total
+Snapshots:   0 total
+Time:        0.533 s
+Ran all test suites matching /ex2-mondaysWorth.test.js/i.
+2022-01-08 10:18:58 error: *** ESLint Report ***
+
+ex2-mondaysWorth.test.js
+  36:7  warning  'durations' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  37:8  warning  'amount' is never reassigned. Use 'const' instead     no-autofix/prefer-const
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2022-01-08 10:21:33 info: -------------------------------------------------
+2022-01-08 10:21:33 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2022-01-08 10:21:33 info: -------------------------------------------------
+2022-01-08 10:21:35 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-mondaysWorth.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js
+  computeEarnings
+    √ should take two parameters (1 ms)
+    × should compute the earnings as a formatted Euro amount (3 ms)
+
+  ● computeEarnings › should compute the earnings as a formatted Euro amount
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "€187.50"
+    Received: "€187.5"
+
+      51 |     const result = computeEarnings(mondayTasks, hourlyRate);
+      52 |     const expected = '€187.50';
+    > 53 |     expect(result).toBe(expected);
+         |                    ^
+      54 |   });
+      55 | });
+      56 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex2-mondaysWorth.test.js:53:20)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 passed, 2 total
+Snapshots:   0 total
+Time:        0.494 s, estimated 1 s
+Ran all test suites matching /ex2-mondaysWorth.test.js/i.
+2022-01-08 10:21:36 error: *** ESLint Report ***
+
+ex2-mondaysWorth.test.js
+  36:7  warning  'durations' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  37:8  warning  'amount' is never reassigned. Use 'const' instead     no-autofix/prefer-const
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+2022-01-08 10:30:53 info: -------------------------------------------------
+2022-01-08 10:30:53 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2022-01-08 10:30:53 info: -------------------------------------------------
+2022-01-08 10:30:55 info: All unit tests passed.
+2022-01-08 10:30:56 error: *** ESLint Report ***
+
+ex2-mondaysWorth.test.js
+  36:7  warning  'durations' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  37:8  warning  'amount' is never reassigned. Use 'const' instead     no-autofix/prefer-const
+  39:1  warning  Remove commented-out code                             hyf/no-commented-out-code
+
+✖ 3 problems (0 errors, 3 warnings)
+
+
+2022-01-08 10:31:22 info: -------------------------------------------------
+2022-01-08 10:31:22 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2022-01-08 10:31:22 info: -------------------------------------------------
+2022-01-08 10:31:24 info: All unit tests passed.
+2022-01-08 10:31:25 error: *** ESLint Report ***
+
+ex2-mondaysWorth.test.js
+  36:7  warning  'durations' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  37:8  warning  'amount' is never reassigned. Use 'const' instead     no-autofix/prefer-const
+  39:1  warning  Remove commented-out code                             hyf/no-commented-out-code
+
+✖ 3 problems (0 errors, 3 warnings)
+
+
+2022-01-09 05:50:39 info: -------------------------------------------------
+2022-01-09 05:50:39 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-01-09 05:50:39 info: -------------------------------------------------
+2022-01-09 05:50:42 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    × should take two parameters (2 ms)
+    × should not modify the original `fruitBasket` array
+    × should return a new array that does not include the unwanted `lemon` (1 ms)
+
+  ● sanitizeFruitBasket › should take two parameters
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: undefined
+
+      38 |   test('should take two parameters', () => {
+      39 |     // TODO replace next line with your code
+    > 40 |     expect().toBe(true);
+         |              ^
+      41 |   });
+      42 |
+      43 |   test('should not modify the original `fruitBasket` array', () => {
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:40:14)
+
+  ● sanitizeFruitBasket › should not modify the original `fruitBasket` array
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      45 |     const originalFruitBasketContents = [...fruitBasket];
+      46 |     // TODO replace next line with your code
+    > 47 |     expect(false).toBe(true);
+         |                   ^
+      48 |   });
+      49 |
+      50 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:47:19)
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      50 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+      51 |     // TODO replace next line with your code
+    > 52 |     expect(false).toBe(true);
+         |                   ^
+      53 |   });
+      54 | });
+      55 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:52:19)
+
+Test Suites: 1 failed, 1 total
+Tests:       3 failed, 3 total
+Snapshots:   0 total
+Time:        0.489 s, estimated 1 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-01-09 05:50:44 error: *** ESLint Report ***
+
+ex3-lemonAllergy.test.js
+  29:10  error  'sanitizeFruitBasket' is defined but never used                   no-unused-vars
+  45:11  error  'originalFruitBasketContents' is assigned a value but never used  no-unused-vars
+
+✖ 2 problems (2 errors, 0 warnings)
+
+
+2022-01-09 06:02:46 info: -------------------------------------------------
+2022-01-09 06:02:46 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-01-09 06:02:46 info: -------------------------------------------------
+2022-01-09 06:02:47 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    × should take two parameters (1 ms)
+    × should not modify the original `fruitBasket` array (2 ms)
+    × should return a new array that does not include the unwanted `lemon` (1 ms)
+
+  ● sanitizeFruitBasket › should take two parameters
+
+    ReferenceError: fruits is not defined
+
+      38 |   test('should take two parameters', () => {
+      39 |     // TODO replace next line with your code
+    > 40 |     expect(sanitizeFruitBasket(fruits,unwantedFruit)).toBe(2);
+         |                                ^
+      41 |   });
+      42 |
+      43 |   test('should not modify the original `fruitBasket` array', () => {
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:40:32)
+
+  ● sanitizeFruitBasket › should not modify the original `fruitBasket` array
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      45 |     const originalFruitBasketContents = [...fruitBasket];
+      46 |     // TODO replace next line with your code
+    > 47 |     expect(false).toBe(true);
+         |                   ^
+      48 |   });
+      49 |
+      50 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:47:19)
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      50 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+      51 |     // TODO replace next line with your code
+    > 52 |     expect(false).toBe(true);
+         |                   ^
+      53 |   });
+      54 | });
+      55 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:52:19)
+
+Test Suites: 1 failed, 1 total
+Tests:       3 failed, 3 total
+Snapshots:   0 total
+Time:        0.39 s, estimated 1 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-01-09 06:02:48 error: *** ESLint Report ***
+
+ex3-lemonAllergy.test.js
+  40:32  error  'fruits' is not defined                                           no-undef
+  40:39  error  'unwantedFruit' is not defined                                    no-undef
+  45:11  error  'originalFruitBasketContents' is assigned a value but never used  no-unused-vars
+
+✖ 3 problems (3 errors, 0 warnings)
+
+
+2022-01-09 06:06:06 info: -------------------------------------------------
+2022-01-09 06:06:06 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-01-09 06:06:06 info: -------------------------------------------------
+2022-01-09 06:06:08 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    × should take two parameters (3 ms)
+    × should not modify the original `fruitBasket` array
+    × should return a new array that does not include the unwanted `lemon`
+
+  ● sanitizeFruitBasket › should take two parameters
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 2
+    Received: [Function sanitizeFruitBasket]
+
+      38 |   test('should take two parameters', () => {
+      39 |     // TODO replace next line with your code
+    > 40 |     expect(sanitizeFruitBasket).toBe(2);
+         |                                 ^
+      41 |   });
+      42 |
+      43 |   test('should not modify the original `fruitBasket` array', () => {
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:40:33)
+
+  ● sanitizeFruitBasket › should not modify the original `fruitBasket` array
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      45 |     const originalFruitBasketContents = [...fruitBasket];
+      46 |     // TODO replace next line with your code
+    > 47 |     expect(false).toBe(true);
+         |                   ^
+      48 |   });
+      49 |
+      50 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:47:19)
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      50 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+      51 |     // TODO replace next line with your code
+    > 52 |     expect(false).toBe(true);
+         |                   ^
+      53 |   });
+      54 | });
+      55 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:52:19)
+
+Test Suites: 1 failed, 1 total
+Tests:       3 failed, 3 total
+Snapshots:   0 total
+Time:        0.393 s, estimated 1 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-01-09 06:06:09 error: *** ESLint Report ***
+
+ex3-lemonAllergy.test.js
+  45:11  error  'originalFruitBasketContents' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2022-01-09 06:07:59 info: -------------------------------------------------
+2022-01-09 06:07:59 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-01-09 06:07:59 info: -------------------------------------------------
+2022-01-09 06:08:00 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    × should take two parameters (1 ms)
+    × should not modify the original `fruitBasket` array (3 ms)
+    × should return a new array that does not include the unwanted `lemon`
+
+  ● sanitizeFruitBasket › should take two parameters
+
+    ReferenceError: fruits is not defined
+
+      38 |   test('should take two parameters', () => {
+      39 |     // TODO replace next line with your code
+    > 40 |     expect(sanitizeFruitBasket(fruits,unwantedFruit)).toBe(2);
+         |                                ^
+      41 |   });
+      42 |
+      43 |   test('should not modify the original `fruitBasket` array', () => {
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:40:32)
+
+  ● sanitizeFruitBasket › should not modify the original `fruitBasket` array
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      45 |     const originalFruitBasketContents = [...fruitBasket];
+      46 |     // TODO replace next line with your code
+    > 47 |     expect(false).toBe(true);
+         |                   ^
+      48 |   });
+      49 |
+      50 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:47:19)
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      50 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+      51 |     // TODO replace next line with your code
+    > 52 |     expect(false).toBe(true);
+         |                   ^
+      53 |   });
+      54 | });
+      55 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:52:19)
+
+Test Suites: 1 failed, 1 total
+Tests:       3 failed, 3 total
+Snapshots:   0 total
+Time:        0.324 s, estimated 1 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-01-09 06:08:01 error: *** ESLint Report ***
+
+ex3-lemonAllergy.test.js
+  40:32  error  'fruits' is not defined                                           no-undef
+  40:39  error  'unwantedFruit' is not defined                                    no-undef
+  45:11  error  'originalFruitBasketContents' is assigned a value but never used  no-unused-vars
+
+✖ 3 problems (3 errors, 0 warnings)
+
+
+2022-01-09 06:09:43 info: -------------------------------------------------
+2022-01-09 06:09:43 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-01-09 06:09:43 info: -------------------------------------------------
+2022-01-09 06:09:44 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    √ should take two parameters (1 ms)
+    × should not modify the original `fruitBasket` array (2 ms)
+    × should return a new array that does not include the unwanted `lemon`
+
+  ● sanitizeFruitBasket › should not modify the original `fruitBasket` array
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      45 |     const originalFruitBasketContents = [...fruitBasket];
+      46 |     // TODO replace next line with your code
+    > 47 |     expect(false).toBe(true);
+         |                   ^
+      48 |   });
+      49 |
+      50 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:47:19)
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      50 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+      51 |     // TODO replace next line with your code
+    > 52 |     expect(false).toBe(true);
+         |                   ^
+      53 |   });
+      54 | });
+      55 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:52:19)
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 1 passed, 3 total
+Snapshots:   0 total
+Time:        0.405 s, estimated 1 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-01-09 06:09:45 error: *** ESLint Report ***
+
+ex3-lemonAllergy.test.js
+  45:11  error  'originalFruitBasketContents' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2022-01-09 07:28:54 info: -------------------------------------------------
+2022-01-09 07:28:54 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-01-09 07:28:54 info: -------------------------------------------------
+2022-01-09 07:28:57 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    × should take two parameters (4 ms)
+    √ should not modify the original `fruitBasket` array (1 ms)
+    × should return a new array that does not include the unwanted `lemon`
+
+  ● sanitizeFruitBasket › should take two parameters
+
+    expect(received).toHaveLength(expected)
+
+    Expected length:   3
+    Received length:   2
+    Received function: [Function sanitizeFruitBasket]
+
+      38 |   test('should take two parameters', () => {
+      39 |     // TODO replace next line with your code
+    > 40 |     expect(sanitizeFruitBasket).toHaveLength(3);
+         |                                 ^
+      41 |   });
+      42 |
+      43 |   test('should not modify the original `fruitBasket` array', () => {
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:40:33)
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    ReferenceError: newBasket is not defined
+
+      51 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+      52 |     // TODO replace next line with your code
+    > 53 |     expect(sanitizeFruitBasket(fruitBasket,"lemon")).toBe(newBasket);
+         |                                                           ^
+      54 |   });
+      55 | });
+      56 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:53:59)
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 1 passed, 3 total
+Snapshots:   0 total
+Time:        0.858 s, estimated 2 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-01-09 07:29:00 error: *** ESLint Report ***
+
+ex3-lemonAllergy.test.js
+  53:59  error  'newBasket' is not defined  no-undef
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2022-01-09 07:29:31 info: -------------------------------------------------
+2022-01-09 07:29:31 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-01-09 07:29:31 info: -------------------------------------------------
+2022-01-09 07:29:33 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  sanitizeFruitBasket
+    √ should take two parameters (2 ms)
+    √ should not modify the original `fruitBasket` array
+    × should return a new array that does not include the unwanted `lemon`
+
+  ● sanitizeFruitBasket › should return a new array that does not include the unwanted `lemon`
+
+    ReferenceError: newBasket is not defined
+
+      51 |   test('should return a new array that does not include the unwanted `lemon`', () => {
+      52 |     // TODO replace next line with your code
+    > 53 |     expect(sanitizeFruitBasket(fruitBasket,"lemon")).toBe(newBasket);
+         |                                                           ^
+      54 |   });
+      55 | });
+      56 |
+
+      at Object.<anonymous> (1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js:53:59)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 2 passed, 3 total
+Snapshots:   0 total
+Time:        0.398 s, estimated 2 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-01-09 07:29:34 error: *** ESLint Report ***
+
+ex3-lemonAllergy.test.js
+  53:59  error  'newBasket' is not defined  no-undef
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2022-01-09 07:36:35 info: -------------------------------------------------
+2022-01-09 07:36:35 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-01-09 07:36:35 info: -------------------------------------------------
+2022-01-09 07:36:36 info: All unit tests passed.
+2022-01-09 07:36:39 info: All steps were completed successfully
+2022-01-09 07:40:01 info: -------------------------------------------------
+2022-01-09 07:40:01 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2022-01-09 07:40:01 info: -------------------------------------------------
+2022-01-09 07:40:03 info: All unit tests passed.
+2022-01-09 07:40:05 info: All steps were completed successfully
+2022-01-09 07:40:44 info: ------------------------------------------------------
+2022-01-09 07:40:44 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-01-09 07:40:44 info: ------------------------------------------------------
+2022-01-09 07:40:46 info: All unit tests passed.
+2022-01-09 07:40:47 error: *** ESLint Report ***
+
+ex1-doubleEvenNumbers.test.js
+  16:3  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2022-01-09 07:41:24 info: ------------------------------------------------------
+2022-01-09 07:41:24 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-01-09 07:41:24 info: ------------------------------------------------------
+2022-01-09 07:41:25 info: All unit tests passed.
+2022-01-09 07:41:27 info: All steps were completed successfully
+2022-01-09 07:56:42 info: -------------------------------------------------
+2022-01-09 07:56:42 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-01-09 07:56:42 info: -------------------------------------------------
+2022-01-09 07:56:44 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-lemonAllergy.test.js --colors
+ FAIL  1-JavaScript/Week4/homework/ex3-lemonAllergy.test.js
+  ● Test suite failed to run
+
+    Jest encountered an unexpected token
+
+    Jest failed to parse a file. This happens e.g. when your code or its dependencies use non-standard JavaScript syntax, or when Jest is not configured to support such syntax.
+
+    Out of the box Jest supports Babel, which will be used to transform your files into valid JS based on your Babel configuration.
+
+    By default "node_modules" folder is ignored by transformers.
+
+    Here's what you can do:
+     • If you are trying to use ECMAScript Modules, see https://jestjs.io/docs/ecmascript-modules for how to enable it.
+     • If you are trying to use TypeScript, see https://jestjs.io/docs/getting-started#using-typescript
+     • To have some of your "node_modules" files transformed, you can specify a custom "transformIgnorePatterns" in your config.
+     • If you need a custom transformation specify a "transform" option in your config.
+     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the "moduleNameMapper" config option.
+
+    You'll find more details and examples of these config options in the docs:
+    https://jestjs.io/docs/configuration
+    For information about custom transformations, see:
+    https://jestjs.io/docs/code-transformation
+
+    Details:
+
+    SyntaxError: E:\HYF-35\GitHub\Homework-class35\1-JavaScript\Week4\homework\ex3-lemonAllergy.test.js: Missing semicolon. (40:34)
+
+      38 |   test('should take two parameters', () => {
+      39 |     // TODO replace next line with your code
+    > 40 |     expect(sanitizeFruitBasket).to toHaveLength(2);
+         |                                   ^
+      41 |   });
+      42 |
+      43 |   test('should not modify the original `fruitBasket` array', () => {
+
+      at Parser._raise (node_modules/@babel/parser/src/parser/error.js:147:45)
+      at Parser.raiseWithData (node_modules/@babel/parser/src/parser/error.js:142:17)
+      at Parser.raise (node_modules/@babel/parser/src/parser/error.js:91:17)
+      at Parser.semicolon (node_modules/@babel/parser/src/parser/util.js:143:10)
+      at Parser.parseExpressionStatement (node_modules/@babel/parser/src/parser/statement.js:904:10)
+      at Parser.parseStatementContent (node_modules/@babel/parser/src/parser/statement.js:388:19)
+      at Parser.parseStatement (node_modules/@babel/parser/src/parser/statement.js:243:17)
+      at Parser.parseBlockOrModuleBlockBody (node_modules/@babel/parser/src/parser/statement.js:979:25)
+      at Parser.parseBlockBody (node_modules/@babel/parser/src/parser/statement.js:955:10)
+      at Parser.parseBlock (node_modules/@babel/parser/src/parser/statement.js:925:10)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        0.747 s
+Ran all test suites matching /ex3-lemonAllergy.test.js/i.
+2022-01-09 07:56:45 error: *** ESLint Report ***
+
+ex3-lemonAllergy.test.js
+  40:36  error  Parsing error: Unexpected token toHaveLength
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2022-01-09 07:57:21 info: -------------------------------------------------
+2022-01-09 07:57:21 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-01-09 07:57:21 info: -------------------------------------------------
+2022-01-09 07:57:22 info: All unit tests passed.
+2022-01-09 07:57:24 info: All steps were completed successfully
+2022-01-09 10:46:15 info: ------------------------------------------
+2022-01-09 10:46:15 info: >>> Running Unit Test `ex4-observable` <<<
+2022-01-09 10:46:15 info: ------------------------------------------
+2022-01-09 10:46:18 info: All unit tests passed.
+2022-01-09 10:46:19 error: *** ESLint Report ***
+
+ex4-observable/ex4-observable.js
+  3:9  error  'get' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2022-01-09 10:46:51 info: ------------------------------------------
+2022-01-09 10:46:51 info: >>> Running Unit Test `ex4-observable` <<<
+2022-01-09 10:46:51 info: ------------------------------------------
+2022-01-09 10:46:52 info: All unit tests passed.
+2022-01-09 10:46:55 info: All steps were completed successfully
+2022-01-10 12:14:51 info: --------------------------------------
+2022-01-10 12:14:51 info: >>> Running Unit Test `ex5-wallet` <<<
+2022-01-10 12:14:51 info: --------------------------------------
+2022-01-10 12:14:55 error: *** Unit Test Error Report ***
+
+✕ wallet q1: At line 26, which variables are in the scope marked Closure?
+✕ wallet q2: What is in the Call Stack, from top to bottom?
+✕ wallet q3: What tooltip appears when hovering over the third debug button?
+✕ wallet q4: What is displayed in the console?
+✕ wallet q5: The owner of the wallet with insufficient funds is?
+
+
+Command failed: npx jest ex5-wallet.test.js --colors --reporters="E:\HYF-35\GitHub\Homework-class35\test-runner\CustomReporter.js"
+2022-01-10 12:18:57 info: --------------------------------------
+2022-01-10 12:18:57 info: >>> Running Unit Test `ex5-wallet` <<<
+2022-01-10 12:18:57 info: --------------------------------------
+2022-01-10 12:18:58 error: *** Unit Test Error Report ***
+
+✕ wallet q1: At line 26, which variables are in the scope marked Closure?
+✕ wallet q2: What is in the Call Stack, from top to bottom?
+✕ wallet q3: What tooltip appears when hovering over the third debug button?
+✕ wallet q4: What is displayed in the console?
+✕ wallet q5: The owner of the wallet with insufficient funds is?
+
+
+Command failed: npx jest ex5-wallet.test.js --colors --reporters="E:\HYF-35\GitHub\Homework-class35\test-runner\CustomReporter.js"
+2022-01-10 12:22:45 info: --------------------------------------
+2022-01-10 12:22:45 info: >>> Running Unit Test `ex5-wallet` <<<
+2022-01-10 12:22:45 info: --------------------------------------
+2022-01-10 12:22:47 error: *** Unit Test Error Report ***
+
+✕ wallet q1: At line 26, which variables are in the scope marked Closure?
+✕ wallet q2: What is in the Call Stack, from top to bottom?
+✕ wallet q3: What tooltip appears when hovering over the third debug button?
+✕ wallet q4: What is displayed in the console?
+✕ wallet q5: The owner of the wallet with insufficient funds is?
+
+
+Command failed: npx jest ex5-wallet.test.js --colors --reporters="E:\HYF-35\GitHub\Homework-class35\test-runner\CustomReporter.js"
+2022-01-10 12:26:07 info: --------------------------------------
+2022-01-10 12:26:07 info: >>> Running Unit Test `ex5-wallet` <<<
+2022-01-10 12:26:07 info: --------------------------------------
+2022-01-10 12:26:09 error: *** Unit Test Error Report ***
+
+✕ wallet q1: At line 26, which variables are in the scope marked Closure?
+✕ wallet q2: What is in the Call Stack, from top to bottom?
+✕ wallet q3: What tooltip appears when hovering over the third debug button?
+✕ wallet q4: What is displayed in the console?
+✕ wallet q5: The owner of the wallet with insufficient funds is?
+
+
+Command failed: npx jest ex5-wallet.test.js --colors --reporters="E:\HYF-35\GitHub\Homework-class35\test-runner\CustomReporter.js"
+2022-01-10 12:31:21 info: --------------------------------------
+2022-01-10 12:31:21 info: >>> Running Unit Test `ex5-wallet` <<<
+2022-01-10 12:31:21 info: --------------------------------------
+2022-01-10 12:31:22 error: *** Unit Test Error Report ***
+
+✕ wallet q1: At line 26, which variables are in the scope marked Closure?
+✕ wallet q2: What is in the Call Stack, from top to bottom?
+✕ wallet q3: What tooltip appears when hovering over the third debug button?
+✕ wallet q4: What is displayed in the console?
+✕ wallet q5: The owner of the wallet with insufficient funds is?
+
+
+Command failed: npx jest ex5-wallet.test.js --colors --reporters="E:\HYF-35\GitHub\Homework-class35\test-runner\CustomReporter.js"
+2022-01-10 09:05:48 info: --------------------------------------
+2022-01-10 09:05:48 info: >>> Running Unit Test `ex5-wallet` <<<
+2022-01-10 09:05:48 info: --------------------------------------
+2022-01-10 09:05:50 error: *** Unit Test Error Report ***
+
+✕ wallet q4: What is displayed in the console?
+
+
+Command failed: npx jest ex5-wallet.test.js --colors --reporters="E:\HYF-35\GitHub\Homework-class35\test-runner\CustomReporter.js"
+2022-01-10 09:23:40 info: --------------------------------------
+2022-01-10 09:23:40 info: >>> Running Unit Test `ex5-wallet` <<<
+2022-01-10 09:23:40 info: --------------------------------------
+2022-01-10 09:23:41 error: *** Unit Test Error Report ***
+
+✕ wallet q4: What is displayed in the console?
+
+
+Command failed: npx jest ex5-wallet.test.js --colors --reporters="E:\HYF-35\GitHub\Homework-class35\test-runner\CustomReporter.js"
+2022-01-10 09:25:19 info: --------------------------------------
+2022-01-10 09:25:19 info: >>> Running Unit Test `ex5-wallet` <<<
+2022-01-10 09:25:19 info: --------------------------------------
+2022-01-10 09:25:21 info: All unit tests passed.
+2022-01-10 09:25:23 info: All steps were completed successfully
+2022-01-10 09:47:58 info: --------------------------------------
+2022-01-10 09:47:58 info: >>> Running Unit Test `ex5-wallet` <<<
+2022-01-10 09:47:58 info: --------------------------------------
+2022-01-10 09:47:59 error: *** Unit Test Error Report ***
+
+✕ wallet q4: What is displayed in the console?
+
+
+Command failed: npx jest ex5-wallet.test.js --colors --reporters="E:\HYF-35\GitHub\Homework-class35\test-runner\CustomReporter.js"
+2022-01-10 09:55:54 info: --------------------------------------
+2022-01-10 09:55:54 info: >>> Running Unit Test `ex5-wallet` <<<
+2022-01-10 09:55:54 info: --------------------------------------
+2022-01-10 09:55:56 info: All unit tests passed.
+2022-01-10 09:55:58 info: All steps were completed successfully
